@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: "AIzaSyBxFufPiLOduD8h90MxcqUOvRRMEXTd7AQ",
+    authDomain: "lamis-store.firebaseapp.com",
+    databaseURL: "https://lamis-store.firebaseio.com",
+    projectId: "lamis-store",
+    storageBucket: "lamis-store.appspot.com",
+    messagingSenderId: "241736348554"
+  }
 };
 
 /*
