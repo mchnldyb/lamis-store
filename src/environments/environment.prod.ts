@@ -2,10 +2,10 @@ export const environment = {
   production: true,
   firebase: {
     apiKey: "",
-    authDomain: "lamis-store.firebaseapp.com",
-    databaseURL: "https://lamis-store.firebaseio.com",
-    projectId: "lamis-store",
-    storageBucket: "lamis-store.appspot.com",
-    messagingSenderId: "241736348554"
+    authDomain: "from-lamis-store.firebaseapp.com",
+    databaseURL: "https://from-lamis-store.firebaseio.com",
+    projectId: "from-lamis-store",
+    storageBucket: "from-lamis-store.appspot.com",
+    messagingSenderId: "904737596536"
   }
 };

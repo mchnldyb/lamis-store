@@ -6,6 +6,7 @@ import { RouterModule } from '@angular/router'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
@@ -39,6 +40,7 @@ import { AdminOrdersComponent } from './admin/admin-orders/admin-orders.componen
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireDatabaseModule,
     AngularFireAuthModule,
+    NgbModule.forRoot(),
     RouterModule.forRoot([
       //Routes for regular users
       { path: '', component: HomeComponent},
@@ -47,6 +49,7 @@ import { AdminOrdersComponent } from './admin/admin-orders/admin-orders.componen
       { path: 'check-out', component: CheckOutComponent},
       { path: 'order-success', component: OrderSuccessComponent },
       { path: 'login', component: LoginComponent},
+      { path: 'my/orders', component: MyOrdersComponent},
       //Admin routes begin here
       { path: 'admin/products', component: AdminProductsComponent},
       { path: 'admin/orders', component: AdminOrdersComponent},
