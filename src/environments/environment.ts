@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: "",
+    apiKey: "AIzaSyByNq3H9v-XGzcOFPGGRWmeKkY6pDfQ3Mw",
     authDomain: "from-lamis-store.firebaseapp.com",
     databaseURL: "https://from-lamis-store.firebaseio.com",
     projectId: "from-lamis-store",
